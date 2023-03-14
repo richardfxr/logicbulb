@@ -17,6 +17,19 @@ $breakpoint-smmobile: 450px;
 
 :root {
     /* === CSS VARIABLES ====================== */
+    --cell-width: 70px;
+    --cell-height: 130px;
+
+    --border-width: 3px;
+    --border: var(--border-width) solid var(--clr-600);
+    --border-radius: 6px;
+
+    --trans-input: 0.07s ease-in-out;
+
+    --input-transY: -13px;
+    --input-transY-hover: -11px;
+    --input-transY-active: -6px;
+    --input-transY-active-hover: -8px;
 
     /* === COLORS ============================= */
 
